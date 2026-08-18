@@ -26,8 +26,10 @@ Existing workarounds made you switch models, use a third-party relay, or hardcod
 Requires **dsh web ≥ 0.1.0-rc.6**.
 
 ```sh
-dsh plugin --profile web add dsh-autovision
+dsh plugin --profile web add @iroam2375/dsh-autovision
 ```
+
+> The npm package is published as **`@iroam2375/dsh-autovision`** (the bare name `dsh-autovision` is unavailable on npm — too similar to the existing `dsh-auto-vision`). The plugin itself is still addressed by its bundle id `dsh-autovision`.
 
 Restart `dsh web`, open **设置 → 插件** (plugin settings) → **Autovision**, and pick a **default vision model** (any multimodal model available in your LLM providers, e.g. `minimax-m3` / `opencode-go`). That model does all the transcribing; nothing else is configured.
 
