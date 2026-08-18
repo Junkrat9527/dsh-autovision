@@ -46,6 +46,8 @@ Restart `dsh web`, open **设置 → 插件** (plugin settings) → **Autovision
 | `prompt` | Optional custom instruction for the vision model. Empty → an open-ended description prompt (text, colors, shapes, UI elements, layout, state). |
 | `targetProviders` | Optional whitelist of providers to wrap (default: all). |
 
+![Autovision settings card](assets/dsh-autovision-settings.png)
+
 ## How it works
 
 - For each pure-text model, the plugin registers a **twin adapter** (`<provider>-autovision`) that declares `inputModalities: ['text', 'image']`.
@@ -62,7 +64,6 @@ Restart `dsh web`, open **设置 → 插件** (plugin settings) → **Autovision
 
 ## Roadmap
 
-- Screenshots for the marketplace detail view (coming).
 - npm publishing (coming).
 
 ## License
