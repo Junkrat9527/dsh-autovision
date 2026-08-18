@@ -1,5 +1,5 @@
 {
-  "name": "dsh-autovision",
+  "name": "@iroam2375/dsh-autovision",
   "version": "0.1.0",
   "description": "dsh auto-vision bridge: paste an image into a text-only model's composer and a configured multimodal model transcribes it as text, automatically.",
   "type": "module",
@@ -53,4 +53,3 @@
     }
   }
 }
-
