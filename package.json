@@ -26,6 +26,9 @@
   "engines": {
     "node": ">=18"
   },
+  "scripts": {
+    "test": "node --test test/"
+  },
   "files": [
     "index.js",
     "client.js",
