@@ -1,0 +1,23 @@
+{
+  "name": "dsh-autovision",
+  "version": "0.1.0",
+  "description": "dsh auto-vision bridge: paste an image into a text-only model's composer and a configured multimodal model transcribes it as text, automatically.",
+  "type": "module",
+  "license": "MIT",
+  "exports": {
+    ".": "./index.js",
+    "./dsh": "./index.js",
+    "./client": "./client.js",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [],
+      "platform": "web",
+      "immediately": true
+    }
+  }
+}

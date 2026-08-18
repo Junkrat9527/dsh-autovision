@@ -1,0 +1,6 @@
+# dsh bundle layer: mount the dsh-autovision plugin (index.js via the package
+# root export). The client half ships through the dsh.client manifest entry,
+# not this file.
+- insert:
+    - id: autovision
+      name: dsh-autovision
