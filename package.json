@@ -4,6 +4,35 @@
   "description": "dsh auto-vision bridge: paste an image into a text-only model's composer and a configured multimodal model transcribes it as text, automatically.",
   "type": "module",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Junkrat9527/dsh-autovision.git"
+  },
+  "homepage": "https://github.com/Junkrat9527/dsh-autovision",
+  "bugs": {
+    "url": "https://github.com/Junkrat9527/dsh-autovision/issues"
+  },
+  "keywords": [
+    "deepseek",
+    "harness",
+    "dsh",
+    "dsh-plugin",
+    "vision",
+    "image",
+    "multimodal",
+    "ocr",
+    "识图"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
   "exports": {
     ".": "./index.js",
     "./dsh": "./index.js",
@@ -21,3 +50,4 @@
     }
   }
 }
+
